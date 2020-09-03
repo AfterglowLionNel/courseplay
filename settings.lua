@@ -3233,7 +3233,7 @@ function SeperateFillTypeLoadingSetting:init(vehicle)
 	self:set(1)
 end
 
-function SeperateFillTypeLoadingSetting:isActive()
+function SeperateFillTypeLoadingSetting:hasDiffFillTypes()
 	return self.current>1
 end
 
